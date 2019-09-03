@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddGroupItemButton /> should match the snapshot 1`] = `
+<button
+  disabled={false}
+  id="AddGroupItemButton_id"
+  name="AddGroupItemButton_name"
+  onClick={[Function]}
+>
+  AddGroupItemButton_text
+</button>
+`;

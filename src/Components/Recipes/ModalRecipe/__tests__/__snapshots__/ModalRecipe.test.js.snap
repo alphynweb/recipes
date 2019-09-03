@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalRecipe /> should match the snapshot 1`] = `
+<div
+  className="modal-recipe"
+  style={
+    Object {
+      "backgroundImage": "url(Recipe Image URL)",
+      "backgroundPosition": "center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <div
+    className="recipe-details"
+  >
+    <h1>
+      Recipe label
+    </h1>
+    <h2>
+      Ingredients
+    </h2>
+    <ul>
+      <li>
+        <p>
+          bacon
+        </p>
+      </li>
+      <li>
+        <p>
+          ham
+        </p>
+      </li>
+    </ul>
+    <h3>
+      Calories: 
+      NaN
+    </h3>
+    <a
+      className="button"
+      href="Recipe url"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Read more
+    </a>
+  </div>
+</div>
+`;

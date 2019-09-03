@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopBar /> should match the snapshot 1`] = `
+<div
+  className="top-bar"
+>
+  <div
+    className="toggle"
+    id="toggleControls"
+    onClick={[Function]}
+  >
+    <div
+      className="bar1"
+    />
+    <div
+      className="bar2"
+    />
+    <div
+      className="bar3"
+    />
+  </div>
+  <div
+    className="select-wrapper disabled"
+  >
+    <span
+      className="select-arrow"
+    />
+    <select
+      disabled={true}
+      id="sortOptions"
+      name="sortOptions"
+      onChange={[Function]}
+    >
+      <option
+        disabled={true}
+        selected={true}
+        value=""
+      >
+        Sort by (Please select)
+      </option>
+      <option
+        disabled={false}
+        selected={false}
+        value="calories-low-to-high"
+      >
+        Calories (Low to High)
+      </option>
+      <option
+        disabled={false}
+        selected={false}
+        value="calories-high-to-low"
+      >
+        Calories (High to Low)
+      </option>
+    </select>
+  </div>
+</div>
+`;

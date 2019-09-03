@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Message /> should match the snapshot when no recipes are found 1`] = `
+<div
+  className="no-recipes message"
+>
+  <h1>
+    No Recipes Found
+  </h1>
+  <p>
+    Please perform a new search
+  </p>
+</div>
+`;
+
+exports[`<Message /> should match the snapshot when recipes are found 1`] = `null`;

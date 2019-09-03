@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> should match the snapshot if there are ingredients 1`] = `
+Array [
+  <TopBar />,
+  <div
+    className="wrapper"
+  >
+    <UIControlsSection
+      onRecipeSearchClicked={[Function]}
+    />
+    <section
+      className="recipe-results"
+    >
+      <Container />
+    </section>
+  </div>,
+]
+`;
+
+exports[`<Layout /> should match the snapshot if there are no ingredients 1`] = `
+Array [
+  <TopBar />,
+  <div
+    className="wrapper"
+  >
+    <UIControlsSection
+      onRecipeSearchClicked={[Function]}
+    />
+    <section
+      className="recipe-results"
+    >
+      <Container />
+    </section>
+  </div>,
+]
+`;

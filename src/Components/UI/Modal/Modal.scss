@@ -1,0 +1,53 @@
+@import '../UIControls/UIControls.scss';
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal {
+        position: relative;
+        width: 60vw;
+        height: 80vh;
+        box-shadow: 0px 0px 5px 2px $ui-background-color;
+        overflow: hidden;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all 0.3s ease-in;
+        z-index: 99;
+        position: fixed;
+    
+        .close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 99;
+            color: $ui-background-color;
+            font-size: 2rem;
+            cursor: pointer;
+        };
+    };
+
+    &.modal-enter-active, &.modal-enter-done, &.modal-appear-active {
+        .modal {
+            transform: translateY(0);
+            opacity: 1;
+        };
+    };
+
+    &.modal-exit-active {
+        .modal {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+    };
+};
+
+
+

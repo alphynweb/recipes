@@ -1,0 +1,52 @@
+@import '../../Components/UI/UIControls/UIControls.scss';
+
+$toggle-width: 30px;
+$toggle-height: 30px;
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding-top: 1rem;
+    background: $ui-secondary-color;
+    padding-bottom: 1rem;
+
+    .toggle {
+        margin-left: 1rem;
+        width: $toggle-width;
+        height: $toggle-height;
+        cursor: pointer;
+        float: left;
+        width: auto;
+        margin-top: 2px;
+
+        .bar1, .bar2, .bar3 {
+            position: relative;
+            width: 35px;
+            height: 5px;
+            background-color: rgb(107, 196, 107);
+            margin: 6px 0;
+            transition: 0.4s;
+        };
+
+        .bar1 {
+            margin-top: 0;
+        };
+    };
+    
+    &.hide {
+        transform: translateX(-100%);
+
+        .toggle {
+            .bar1, .bar2, .bar3 {
+                background-color: #333;
+            };
+
+            .bar1 {
+                transform: rotate(45deg) translate(-9px, 6px);
+            };
+        };
+    };
+};

@@ -1,0 +1,129 @@
+// Responsive breakpoints
+@import '../../../stylesheets/breakpoints.scss';
+@import '../../UI/UIControls/UIControls.scss';
+
+.recipe {  // 2
+    position: relative;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0; 
+    // border: 2px solid transparent;
+    width: 48%;
+    margin-right: 4%;
+
+    
+    img {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        height: auto;
+        transition: transform 0.2s;
+    }
+
+    h2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        min-height: 5rem;
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        font-weight: normal;
+        background: rgba(0,0,0,0.7);
+        color: #fff;
+        padding: 1rem;
+        margin: 0;
+        z-index: 80;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 5px 2px $ui-background-color;
+        img {
+            transform: scale(1.2);
+        };
+    };
+
+    &:nth-child(2n) {
+        margin-right: 0;
+    };
+
+    @media screen and (min-width: $large-mobile) { // 3
+        width: 30%;
+        margin-right: 5%;
+
+        &:nth-child(2n) {
+            margin-right: 5%;
+        };
+
+        &:nth-child(3n) {
+            margin-right: 0;
+        };
+    };
+
+    @media screen and (min-width: $tablet) { // 4
+        width: 24%;   
+        margin-right: calc( 4% / 3 );
+
+        &:nth-child(2n) {
+            margin-right: calc( 4% / 3 );
+        };
+
+        &:nth-child(3n) {
+            margin-right: calc( 4% / 3 );
+        };
+
+        &:nth-child(4n) {
+            margin-right: 0;
+        };
+    };
+
+    @media screen and (min-width: $small-desktop) { // 5
+        width: 18%;
+        margin-right: 2.5%;
+
+        &:nth-child(2n) {
+            margin-right: 2.5%;
+        };
+
+        &:nth-child(3n) {
+            margin-right: 2.5%;
+        };
+
+        &:nth-child(4n) {
+            margin-right: 2.5%;
+        };
+
+        &:nth-child(5n) {
+            margin-right: 0;
+        }
+    };
+
+    @media screen and (min-width: $large-desktop) { // 6
+        width: 15%;
+        margin-right: calc(10% / 5);
+
+        &:nth-child(2n) {
+            margin-right: calc(10% / 5);
+        };
+
+        &:nth-child(3n) {
+            margin-right: calc(10% / 5);
+        };
+
+        &:nth-child(4n) {
+            margin-right: calc(10% / 5);
+        };
+
+        &:nth-child(5n) {
+            margin-right: calc(10% / 5);
+        }
+
+        &:nth-child(6n) {
+            margin-right: 0;
+        }
+    };
+
+}

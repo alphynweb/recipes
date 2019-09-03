@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Recipes /> should match the snapshot when there are no recipes returned 1`] = `
+<div
+  className="recipes"
+>
+  <div
+    className="recipe"
+    onClick={[Function]}
+  >
+    <h2>
+      Recipe 2
+    </h2>
+    <img
+      alt=""
+      src="Recipe 2 Image Url"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Recipes /> should match the snapshot when there are recipes returned 1`] = `
+<div
+  className="recipes"
+>
+  <div
+    className="recipe"
+    onClick={[Function]}
+  >
+    <h2>
+      Recipe 2
+    </h2>
+    <img
+      alt=""
+      src="Recipe 2 Image Url"
+    />
+  </div>
+</div>
+`;

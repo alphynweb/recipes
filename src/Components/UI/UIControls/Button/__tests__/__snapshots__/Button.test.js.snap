@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should match the snapshot 1`] = `
+<button
+  disabled={false}
+  id="button_id"
+  name="button_name"
+  onClick={[MockFunction]}
+>
+  button_text
+</button>
+`;

@@ -1,0 +1,29 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    transform: translateY(0);
+    transition: transform 2s;
+
+    // &.block-appear, &.block-enter {
+    //     background: green;
+    //     transform: translateY(100%);
+    // };
+
+    &.block-enter-active, &.block-appear-active {
+        transform: translateY(200%);
+    };
+
+    &.block-enter-done {
+        transform: translateY(200%);
+    };
+
+    &.block-exit-active {
+        background: yellow;
+    };
+
+    // &.block-exit {
+    //     transform: transalteY(300%);
+    // };
+}

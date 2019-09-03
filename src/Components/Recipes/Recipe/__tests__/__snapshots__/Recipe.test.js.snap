@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Recipe /> should match the snapshot 1`] = `
+<div
+  className="recipe"
+  onClick={[Function]}
+>
+  <h2>
+    Recipe Label
+  </h2>
+  <img
+    alt=""
+    src="Recipe Image Url"
+  />
+</div>
+`;

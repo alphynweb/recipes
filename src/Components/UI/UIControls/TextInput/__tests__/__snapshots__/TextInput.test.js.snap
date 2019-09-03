@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextInput /> should match the snapshot 1`] = `
+<div
+  className="text-input-holder"
+>
+  <input
+    id="TextInput_id"
+    name="TextInput_name"
+    onChange={[Function]}
+    placeholder="TextInput_placeholder"
+    type="TextInput_type"
+    value="TextInput_value"
+  />
+  <span
+    className="delete"
+    onClick={[Function]}
+  >
+    X
+  </span>
+</div>
+`;

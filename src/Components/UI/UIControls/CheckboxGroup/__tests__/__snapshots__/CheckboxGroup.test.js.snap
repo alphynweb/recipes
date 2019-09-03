@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxGroup /> should match the snapshot 1`] = `
+<fieldset
+  className="checkbox-group"
+>
+  <label
+    className="checkbox-container"
+  >
+    Vegan
+    <input
+      checked={false}
+      name="checkboxGroup_id"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <label
+    className="checkbox-container"
+  >
+    Vegetarian
+    <input
+      checked={false}
+      name="checkboxGroup_id"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;

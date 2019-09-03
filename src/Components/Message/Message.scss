@@ -1,0 +1,15 @@
+.message {
+
+    h1 {
+        font-size: 2rem;
+    };
+
+    p {
+        font-size: 1.3rem;
+    };
+
+    &.no-recipes {
+        padding-top: 5rem;
+        text-align: center;
+    };
+}

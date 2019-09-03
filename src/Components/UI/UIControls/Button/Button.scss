@@ -1,0 +1,30 @@
+@import '../UIControls.scss';
+
+button, .button {
+    // -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	// -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	// box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color: $ui-button-bg-color;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: $ui-border-radius;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: $ui-primary-color;
+	font-family: $ui-font-face;
+	font-size: $ui-font-size;
+	font-weight: $ui-font-weight-bold;
+	padding: $ui-base-padding $ui-base-padding * 3;
+	text-decoration: none;
+	width: 100%;
+	
+    &:hover {
+        background-color: $ui-button-hover-color;
+	}
+	
+	&:disabled {
+		background: $ui-disabled-color;
+		cursor: not-allowed;
+	};
+};

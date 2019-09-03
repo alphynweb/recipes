@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> should match the snapshot 1`] = `
+<section
+  className="route-section"
+>
+  <div
+    className="recipes"
+  >
+    <div
+      className="recipe"
+      onClick={[Function]}
+    >
+      <h2>
+        label1
+      </h2>
+      <img
+        alt=""
+        src="image1"
+      />
+    </div>
+  </div>
+</section>
+`;

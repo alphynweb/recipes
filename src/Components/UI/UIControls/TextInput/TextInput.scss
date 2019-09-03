@@ -1,0 +1,24 @@
+@import '../UIControls.scss';
+
+.text-input-holder {
+    position: relative;
+    width: 100%;
+
+    input:not([type=submit]):not([type=file]) {
+        padding:6px 24px;
+        border: $ui-base-border;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        margin-bottom: $ui-base-margin;
+        width: calc(100% - 1.5rem);
+        display: inline-block;
+     }
+    
+     .delete {
+         cursor: pointer;
+         color: $ui-alert-color;
+         font-weight: $ui-font-weight-bold;
+         margin-left: $ui-base-margin;
+     }
+};
